@@ -1,0 +1,71 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/DevEnv/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+						"D:/DevEnv/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
+						"D:/DevEnv/MinGW/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/DevEnv/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0",
+						"D:/DevEnv/MinGW/lib/gcc",
+						"D:/DevEnv/MinGW/x86_64-w64-mingw32/lib",
+						"D:/DevEnv/MinGW/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"iconv",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "D:/DevEnv/MinGW/bin/gcc.exe",
+				"version" : "8.1.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "D:/DevEnv/MinGW/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

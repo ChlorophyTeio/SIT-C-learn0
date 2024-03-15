@@ -1,0 +1,10 @@
+"D:\DevEnv\Tools\Jebrain\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/DevEnv/Tools/Jebrain/CLion Nova/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\Project\C\00 -B D:\Project\C\00\cmake-build-debug
+-- The C compiler identification is GNU 8.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/DevEnv/MinGW/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/Project/C/00/cmake-build-debug
