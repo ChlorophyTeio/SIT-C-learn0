@@ -10,7 +10,7 @@
  * @return 返回小写字母或报错信息
  */
 char* Uppercase_To_Lowercase(const char usr_input) {
-  static char result[10]; // 静态数组用于存储结果
+  static char result[51]; // 静态数组用于存储结果
 
   // 判断输入是否为大写字母
   usr_input >= 'A' && usr_input <= 'Z'
